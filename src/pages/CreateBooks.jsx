@@ -48,7 +48,7 @@ const CreateBooks = () => {
                 </div>
                 <div className="my-4">
                     <label htmlFor="" className="text-xl mr-4 text-gray-500">Published Year</label>
-                    <input type="text" value={publishYear} onChange={(e) => setPublishYear(e.target.value)} className='border-2 border-gray-500 px-4 py-2 w-full' />
+                    <input type="number" value={publishYear} onChange={(e) => setPublishYear(e.target.value)} className='border-2 border-gray-500 px-4 py-2 w-full' />
                 </div>
                 <button className='p-2 bg-sky-300 m-8 text-white' onClick={handleSaveBook}>Create Book</button>
         </div>
